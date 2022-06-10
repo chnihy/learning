@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chnihy/Documents/programming/SANDBOX/VISUAL STUDIO/C#/HelloWorld/HelloWorld/HelloWorld.csproj": {}
+    "/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/HelloWorld.csproj": {}
   },
   "projects": {
-    "/Users/chnihy/Documents/programming/SANDBOX/VISUAL STUDIO/C#/HelloWorld/HelloWorld/HelloWorld.csproj": {
+    "/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chnihy/Documents/programming/SANDBOX/VISUAL STUDIO/C#/HelloWorld/HelloWorld/HelloWorld.csproj",
+        "projectUniqueName": "/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "/Users/chnihy/Documents/programming/SANDBOX/VISUAL STUDIO/C#/HelloWorld/HelloWorld/HelloWorld.csproj",
+        "projectPath": "/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/HelloWorld.csproj",
         "packagesPath": "/Users/chnihy/.nuget/packages/",
-        "outputPath": "/Users/chnihy/Documents/programming/SANDBOX/VISUAL STUDIO/C#/HelloWorld/HelloWorld/obj/",
+        "outputPath": "/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chnihy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

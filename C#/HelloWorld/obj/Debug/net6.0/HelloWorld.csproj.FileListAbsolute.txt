@@ -1,0 +1,15 @@
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/bin/Debug/net6.0/HelloWorld
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/bin/Debug/net6.0/HelloWorld.deps.json
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/bin/Debug/net6.0/HelloWorld.runtimeconfig.json
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/bin/Debug/net6.0/HelloWorld.dll
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/bin/Debug/net6.0/HelloWorld.pdb
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.AssemblyReference.cache
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.AssemblyInfo.cs
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.dll
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/refint/HelloWorld.dll
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.pdb
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/HelloWorld.genruntimeconfig.cache
+/Users/chnihy/Documents/programming/SANDBOX/learning/C#/HelloWorld/obj/Debug/net6.0/ref/HelloWorld.dll
