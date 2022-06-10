@@ -117,3 +117,31 @@ Ran 1 test in 0.000s
 
 FAILED (failures=1)
 ```
+
+### Importing a Single Script with __import__
+
+```python
+target = __import__("main.py")
+add = target.add
+```
+
+### Types of Asserts
+<table>
+    <tr>
+        <th>Method</th>
+        <th>Equivalent to</th></tr>
+    <tr>
+        <td>.assertEqual(a, b)	a == b</td></tr>
+    <tr>
+        <td>.assertTrue(x)	bool(x) is True</td></tr>
+    <tr>
+        <td>.assertFalse(x)	bool(x) is False</td></tr>
+    <tr>
+        <td>.assertIs(a, b)	a is b</td></tr>
+    <tr>
+        <td>.assertIsNone(x)	x is None</td></tr>
+    <tr>
+        <td>.assertIn(a, b)	a in b</td></tr>
+    <tr>
+        <td>.assertIsInstance(a, b)	isinstance(a, b)</td></tr>
+</table>
