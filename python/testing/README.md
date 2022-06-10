@@ -2,17 +2,23 @@
 
 ## Assert 
 The assert statement tests the input and returns nothing if passed
+<p class="codeblock-title">main.py</p>
+
 ```python
 assert sum(1,2) == 3, 'Error message goes here'
 ```
 
 If failed, an Assertation Error and the custom message will appear in REPL
+<p class="codeblock-title">main.py</p>
+
 ```python
 def add():
     return sum([2, 2])
 
 assert add() == 5, "Custom Error Message"
 ```
+
+Will output:
 
 ```bash
 Traceback (most recent call last):
@@ -49,7 +55,7 @@ def add():
 ```
 
 
-## Using <unittest> module
+## Using unittest module
 #### From <a href="https://realpython.com/python-testing/">Real Python</a>:
 ```
 unittest has been built into the Python standard library since version 2.1. You’ll probably see it in commercial Python applications and open-source projects.
