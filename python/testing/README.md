@@ -137,17 +137,17 @@ add = target.add
         <th>Method</th>
         <th>Equivalent to</th></tr>
     <tr>
-        <td>.assertEqual(a, b)	a == b</td></tr>
+        <td>.assertEqual(a, b)</td>	<td>a == b</td></tr>
     <tr>
-        <td>.assertTrue(x)	bool(x) is True</td></tr>
+        <td>.assertTrue(x)</td>	<td>bool(x) is True</td></tr>
     <tr>
-        <td>.assertFalse(x)	bool(x) is False</td></tr>
+        <td>.assertFalse(x)</td>	<td>bool(x) is False</td></tr>
     <tr>
-        <td>.assertIs(a, b)	a is b</td></tr>
+        <td>.assertIs(a, b)</td>	<td>a is b</td></tr>
     <tr>
-        <td>.assertIsNone(x)	x is None</td></tr>
+        <td>.assertIsNone(x)</td>	<td>x is None</td></tr>
     <tr>
-        <td>.assertIn(a, b)	a in b</td></tr>
+        <td>.assertIn(a, b)</td>	<td>a in b</td></tr>
     <tr>
-        <td>.assertIsInstance(a, b)	isinstance(a, b)</td></tr>
+        <td>.assertIsInstance(a, b)</td>	<td>isinstance(a, b)</td></tr>
 </table>
