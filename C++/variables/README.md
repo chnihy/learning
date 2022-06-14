@@ -10,6 +10,7 @@ string - stores text, such as "Hello World". String values are surrounded by dou
 bool - stores values with two states: true or false
 ```
 
+
 ## Float vs Double
 Float is a decimal with 7 digits
 Double is a decimal with 15 digits
