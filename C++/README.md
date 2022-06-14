@@ -1,6 +1,7 @@
 # C++ CHEAT SHEET
 
-## Check your Compiler
+## Getting Started
+### Check your Compiler
 
 ```
 g++ --version
