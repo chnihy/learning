@@ -15,7 +15,8 @@ class MyClass {
 
 
 ## Access specifiers
-From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>  
+#### From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>:  
+
 In C++, there are three access specifiers:
 
 public - members are accessible from outside the class  
