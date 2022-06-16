@@ -24,7 +24,7 @@ int main() {
 	order3.topping = "sausage";
 	order3.cost = 16;
 
-	cout << "Order 1: " << order1.topping << endl;
-	cout << "Order 2: " << order2.topping << endl;
-	cout << "Order 3: " << order3.topping << endl;
+	cout << "Order 1: " << order1.size << " \" " << order1.topping << endl;
+	cout << "Order 2: " << order2.size << " \" " << order2.topping << endl;
+	cout << "Order 3: " << order3.size << " \" " << order3.topping << endl;
 }
