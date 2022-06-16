@@ -15,7 +15,7 @@ class MyClass {
 
 
 ## Access specifiers
-#### From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>:  
+####From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>:  
 
 In C++, there are three access specifiers:
 
@@ -45,12 +45,12 @@ class SubClass : public BaseClass{
 ## Class constructors
 Use constructors to set default attribute values, optionally using params
 ```cpp
-class Pizza {        // Class name
-  public:          // Access specifier
-    string topping;  // Attribute
-    string crust;  // Attribute
-    int cost;      // Attribute
-    Pizza(string toppingInput, string crustInput, int costInput) { // Constructor with parameters
+class Pizza {        
+  public:          
+    string topping;  
+    string crust;  
+    int cost;      
+    Pizza(string toppingInput, string crustInput, int costInput) { 
       string topping = toppingInput;
       string crust = crustInput;
       int cost = costInput;
@@ -58,11 +58,11 @@ class Pizza {        // Class name
 };
 
 int main() {
-  // Create Car objects and call the constructor with different values
+  // Create objects
   Pizza pizzaOrder1("peperoni", "thin", 20);
   Pizza pizzaOrder2("cheese", "hand tossed", 18);
 
-  // Print values
+  // Call object class methods
 	cout << pizzaOrder1.topping << endl; //will print "pepperoni"
 	cout << pizzaOrder2.topping << endl; //will print "chees"
   return 0;
@@ -88,7 +88,7 @@ class Pizza {        // Class name
 };
 
 int main() {
-  // Create Car objects and call the constructor with different values
+  // Create objects
   Pizza pizzaOrder1("peperoni", "thin", 20);
   Pizza pizzaOrder2("cheese", "hand tossed", 18);
 
