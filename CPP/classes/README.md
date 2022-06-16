@@ -85,16 +85,18 @@ class Pizza {
     // create attributes
     string topping;  
     string crust; 
-    int cost;     
+    int cost; 
+
     // use constructor to set attr values
     Pizza(string toppingInput, string crustInput, int costInput) {
       string topping = toppingInput;
       string crust = crustInput;
       int cost = costInput;
     }
+
   // create class method
-	string printOrder(){ 
-		cout << topping << " " << crust << " " << cost << endl;
+	void printOrder(){ 
+		cout << topping << " " << crust << endl;
 	}
 };
 
@@ -104,8 +106,8 @@ int main() {
   Pizza pizzaOrder2("cheese", "hand tossed", 18);
 
   // Print values
-	pizzaOrder1.printOrder()
-	pizzaOrder2.printOrder()
+	pizzaOrder1.printOrder(); // will print "pepperoni thin 20" 
+	pizzaOrder2.printOrder(); // will print "cheese hand tossed"
   return 0;
 }
 ```
