@@ -1,11 +1,24 @@
 #include <iostream>
-using namespace std;  
+using namespace std;
 
-string myfunc(string str){
-  return "String is: " + str;
+// Base class
+class Vehicle {
+  public:
+    string brand = "Ford";
+    void honk() {
+      cout << "Tuut, tuut! \n" ;
+    }
+};
+
+// Derived class
+class Car: public Vehicle {
+  public:
+    string model = "Mustang";
+};
+
+int main() {
+  Car myCar;
+  myCar.honk();
+  cout << myCar.brand + " " + myCar.model;
+  return 0;
 }
-
-int main()  
-{  
-  cout << myfunc("String") << endl;
-}  

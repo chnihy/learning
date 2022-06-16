@@ -40,7 +40,8 @@ class SubClass : public BaseClass{
 ```
 
 
-A more advanced class with methods and a constructor
+## Class constructors
+Use constructors to set default attribute values, optionally using params
 ```cpp
 class Pizza {        // Class name
   public:          // Access specifier
@@ -52,7 +53,34 @@ class Pizza {        // Class name
       string crust = crustInput;
       int cost = costInput;
     }
-	string printOrder(){
+};
+
+int main() {
+  // Create Car objects and call the constructor with different values
+  Pizza pizzaOrder1("peperoni", "thin", 20);
+  Pizza pizzaOrder2("cheese", "hand tossed", 18);
+
+  // Print values
+	cout << pizzaOrder1.topping << endl; //will print "pepperoni"
+	cout << pizzaOrder2.topping << endl; //will print "chees"
+  return 0;
+}
+```
+
+## Class Methods
+Methods are functions within classes
+```cpp
+class Pizza {        // Class name
+  public:          // Access specifier
+    string topping;  // Attribute
+    string crust;  // Attribute
+    int cost;      // Attribute
+    Pizza(string toppingInput, string crustInput, int costInput) { // Constructor with parameters
+      string topping = toppingInput;
+      string crust = crustInput;
+      int cost = costInput;
+    }
+	string printOrder(){ //Class Method
 		cout << topping << " " << crust << " " << cost << endl;
 	}
 };
@@ -66,26 +94,5 @@ int main() {
 	pizzaOrder1.printOrder()
 	pizzaOrder2.printOrder()
   return 0;
-}
-```
-
-## Creating a class object
-```cpp
-class MyClass {       // The class
-  public:             // Access specifier
-    int myNum;        // Attribute (int variable)
-    string myString;  // Attribute (string variable)
-};
-
-int main(){
-	myObject = MyClass();
-	
-	// assign values to attributes, using . syntax
-	myObject.myNum = 2;
-	myObject.myString = "Hello World";
-
-	// print attributes
-	cout << "myObject.myNum: " << myObject.myNum >> endl;
-	cout << "myObject.myString: " << myObject.myString >> endl;
 }
 ```
