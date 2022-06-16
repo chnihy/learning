@@ -3,10 +3,13 @@
 ## Simple Class Example
 A simple class
 ```cpp
-class MyClass {       // The class
-  public:             // Access specifier
-    int myNum;        // Attribute (int variable)
-    string myString;  // Attribute (string variable)
+// Create class
+class MyClass {       
+  // Specify access
+  public:             
+    // create attributes
+    int myNum;        
+    string myString;  
 };
 ```
 
@@ -16,8 +19,8 @@ From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools
 
 In C++, there are three access specifiers:
 
-public - members are accessible from outside the class
-private - members cannot be accessed (or viewed) from outside the class - see <a href="https://www.w3schools.com/cpp/cpp_encapsulation.asp">Encapsulation</a>
+public - members are accessible from outside the class  
+private - members cannot be accessed (or viewed) from outside the class - see <a href="https://www.w3schools.com/cpp/cpp_encapsulation.asp">Encapsulation</a>  
 protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes.
 
 
