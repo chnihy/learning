@@ -1,4 +1,6 @@
 # Classes
+Like functions, classes must be defined before the main() function
+
 
 ## Simple Class Example
 A simple class
@@ -45,11 +47,15 @@ class SubClass : public BaseClass{
 ## Class constructors
 Use constructors to set default attribute values, optionally using params
 ```cpp
+// create class
 class Pizza {        
+  // set access
   public:          
+    // create attributes
     string topping;  
     string crust;  
     int cost;      
+    // use constructor to set attribute values
     Pizza(string toppingInput, string crustInput, int costInput) { 
       string topping = toppingInput;
       string crust = crustInput;
@@ -72,17 +78,22 @@ int main() {
 ## Class Methods
 Methods are functions within classes
 ```cpp
-class Pizza {        // Class name
-  public:          // Access specifier
-    string topping;  // Attribute
-    string crust;  // Attribute
-    int cost;      // Attribute
-    Pizza(string toppingInput, string crustInput, int costInput) { // Constructor with parameters
+// create class
+class Pizza {        
+  // set access
+  public:          
+    // create attributes
+    string topping;  
+    string crust; 
+    int cost;     
+    // use constructor to set attr values
+    Pizza(string toppingInput, string crustInput, int costInput) {
       string topping = toppingInput;
       string crust = crustInput;
       int cost = costInput;
     }
-	string printOrder(){ //Class Method
+  // create class method
+	string printOrder(){ 
 		cout << topping << " " << crust << " " << cost << endl;
 	}
 };
