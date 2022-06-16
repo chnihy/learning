@@ -16,14 +16,14 @@ class MyClass {
 
 ## Access specifiers
 From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>
-<quote>
+```
 In C++, there are three access specifiers:
 
 public - members are accessible from outside the class  
 private - members cannot be accessed (or viewed) from outside the class - see <a href="https://www.w3schools.com/cpp/cpp_encapsulation.asp">Encapsulation</a>  
 protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes.
 </quote>
-
+```
 
 ## Inheritance and Polymorphism
 Sub classing
