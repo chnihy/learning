@@ -1,25 +1,29 @@
 # Classes
+Like functions, classes must be defined before the main() function
+
 
 ## Simple Class Example
 A simple class
 ```cpp
-class MyClass {       // The class
-  public:             // Access specifier
-    int myNum;        // Attribute (int variable)
-    string myString;  // Attribute (string variable)
+// Create class
+class MyClass {       
+  // Specify access
+  public:             
+    // create attributes
+    int myNum;        
+    string myString;  
 };
 ```
 
 
 ## Access specifiers
-From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>
+#### From <a href="https://www.w3schools.com/cpp/cpp_access_specifiers.asp">W3Schools</a>:  
 
 In C++, there are three access specifiers:
 
-public - members are accessible from outside the class
-private - members cannot be accessed (or viewed) from outside the class - see <a href="https://www.w3schools.com/cpp/cpp_encapsulation.asp">Encapsulation</a>
+public - members are accessible from outside the class  
+private - members cannot be accessed (or viewed) from outside the class - see <a href="https://www.w3schools.com/cpp/cpp_encapsulation.asp">Encapsulation</a>  
 protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes.
-
 
 
 ## Inheritance and Polymorphism
@@ -40,52 +44,70 @@ class SubClass : public BaseClass{
 ```
 
 
-A more advanced class with methods and a constructor
+## Class constructors
+Use constructors to set default attribute values, optionally using params
 ```cpp
-class Pizza {        // Class name
-  public:          // Access specifier
-    string topping;  // Attribute
-    string crust;  // Attribute
-    int cost;      // Attribute
-    Pizza(string toppingInput, string crustInput, int costInput) { // Constructor with parameters
+// create class
+class Pizza {        
+  // set access
+  public:          
+    // create attributes
+    string topping;  
+    string crust;  
+    int cost;      
+    // use constructor to set attribute values
+    Pizza(string toppingInput, string crustInput, int costInput) { 
       string topping = toppingInput;
       string crust = crustInput;
       int cost = costInput;
     }
-	string printOrder(){
-		cout << topping << " " << crust << " " << cost << endl;
-	}
 };
 
 int main() {
-  // Create Car objects and call the constructor with different values
+  // Create objects
   Pizza pizzaOrder1("peperoni", "thin", 20);
   Pizza pizzaOrder2("cheese", "hand tossed", 18);
 
-  // Print values
-	pizzaOrder1.printOrder()
-	pizzaOrder2.printOrder()
+  // Call object class methods
+	cout << pizzaOrder1.topping << endl; //will print "pepperoni"
+	cout << pizzaOrder2.topping << endl; //will print "chees"
   return 0;
 }
 ```
 
-## Creating a class object
+## Class Methods
+Methods are functions within classes
 ```cpp
-class MyClass {       // The class
-  public:             // Access specifier
-    int myNum;        // Attribute (int variable)
-    string myString;  // Attribute (string variable)
+// create class
+class Pizza {        
+  // set access
+  public:          
+    // create attributes
+    string topping;  
+    string crust; 
+    int cost; 
+
+    // use constructor to set attr values
+    Pizza(string toppingInput, string crustInput, int costInput) {
+      string topping = toppingInput;
+      string crust = crustInput;
+      int cost = costInput;
+    }
+
+  // create class method
+	void printOrder(){ 
+		cout << topping << " " << crust << endl;
+	}
 };
 
-int main(){
-	myObject = MyClass();
-	
-	// assign values to attributes, using . syntax
-	myObject.myNum = 2;
-	myObject.myString = "Hello World";
+int main() {
+  // Create objects
+  Pizza pizzaOrder1("peperoni", "thin", 20);
+  Pizza pizzaOrder2("cheese", "hand tossed", 18);
 
-	// print attributes
-	cout << "myObject.myNum: " << myObject.myNum >> endl;
-	cout << "myObject.myString: " << myObject.myString >> endl;
+  // Print values
+	pizzaOrder1.printOrder(); // will print "pepperoni thin 20" 
+	pizzaOrder2.printOrder(); // will print "cheese hand tossed"
+  return 0;
 }
 ```
