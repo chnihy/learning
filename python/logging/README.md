@@ -2,6 +2,8 @@
 
 <a href="https://realpython.com/python-logging/#the-logging-module">Real Python</a> Logging tutorial is very good
 
+<a href="https://www.youtube.com/watch?v=-ARI4Cz-awo">Corey Schaefer</a> has a two part tutorial on </a> <<a href="https://www.youtube.com/watch?v=-ARI4Cz-awo">YouTube</a>
+
 ```python
 import logging
 # DEBUG: Detailed information, typically of interest only when diagnosing problems.
