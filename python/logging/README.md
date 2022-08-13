@@ -1,4 +1,7 @@
 # PYTHON LOGGING MODULE
+<a href="https://docs.python.org/3/library/logging.html">Official Documentation</a>
+
+<a href="https://docs.python.org/3/howto/logging.html">Official Python tutorial</a>
 
 <a href="https://realpython.com/python-logging/#the-logging-module">Real Python</a> Logging tutorial is very good
 

@@ -1,12 +1,12 @@
 # References and Pointers
 
-A reference is a ref to an existing variable, it is created using the '&' sign
+A reference is a symbolic link to an existing variable, it is created using the '&' sign
 ```cpp
 string foo = "Foo";
 string &bar = foo;
 ```
 
-Calling the reference '&' on an existing var will result in the memory address in hexcode format
+Calling the reference (using &) on an existing var will return the memory address in hexcode format
 ```cpp
 string foo = "Foo";
 cout << &foo; //will output 0x7ff7b84127a8

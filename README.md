@@ -15,3 +15,4 @@ Hopefully I will be crossing items off this list soon...
 - [ ] Django Framework
 - [ ] AWS
 - [ ] Qt Framework
+- [ ] Selenium Webdriver
