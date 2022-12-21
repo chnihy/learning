@@ -1,0 +1,15 @@
+/Users/chnihy/Programming/sandbox/c#/dictionary/bin/Debug/net7.0/dictionary
+/Users/chnihy/Programming/sandbox/c#/dictionary/bin/Debug/net7.0/dictionary.deps.json
+/Users/chnihy/Programming/sandbox/c#/dictionary/bin/Debug/net7.0/dictionary.runtimeconfig.json
+/Users/chnihy/Programming/sandbox/c#/dictionary/bin/Debug/net7.0/dictionary.dll
+/Users/chnihy/Programming/sandbox/c#/dictionary/bin/Debug/net7.0/dictionary.pdb
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.csproj.AssemblyReference.cache
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.AssemblyInfoInputs.cache
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.AssemblyInfo.cs
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.csproj.CoreCompileInputs.cache
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.dll
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/refint/dictionary.dll
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.pdb
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/dictionary.genruntimeconfig.cache
+/Users/chnihy/Programming/sandbox/c#/dictionary/obj/Debug/net7.0/ref/dictionary.dll
